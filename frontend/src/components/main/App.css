@@ -16,3 +16,13 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+/* Grid Layout*/
+
+.app {
+  margin: 0;
+
+  height: 100vh;
+
+  background-color: #F5F5F5;
+}
