@@ -20,9 +20,39 @@
 /* Grid Layout*/
 
 .app {
+  display: grid;
+  grid-template-columns: var(--aside-width) 1fr;
+  grid-template-rows: 
+    var(--header-height)
+    1fr
+    var(--footer-height);
+  grid-template-areas: 
+    "logo header"
+    "menu content"
+    "menu footer";  
   margin: 0;
 
   height: 100vh;
 
   background-color: #F5F5F5;
+}
+
+aside.logo {
+  grid-area: logo;
+}
+
+header.header {
+  grid-area: header;
+}
+
+aside.menu-area {
+  grid-area: menu;
+}
+
+main.content {
+  grid-area: content;
+}
+
+footer.footer {
+  grid-area: footer;
 }
