@@ -4,7 +4,7 @@ import Main from "../template/Main";
 function Home(props) {
     return (
         <Main icon="home" title="Início" 
-            subtitle="Segundo Projeto do capítulo de React" icon="home">
+            subtitle="Segundo Projeto do capítulo de React">
             <div className="display-4">Bem Vindo!</div>
             <hr/>
             <p className="mb-0">Sistema para exemplificar a construção
