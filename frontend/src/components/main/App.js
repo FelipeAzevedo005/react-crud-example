@@ -5,10 +5,13 @@ import "./App.css";
 import Footer from "../template/Footer";
 
 import Main from "../template/Main";
+import Logo from "../template/Logo";
 
 function App() {
     return (
         <div className="app">
+            <Logo />
+
             <Main icon="home" title="Início" 
                 subtitle="Segundo Projeto do capítulo de React" icon="home">
                 <div className="display-4">Bem Vindo!</div>
