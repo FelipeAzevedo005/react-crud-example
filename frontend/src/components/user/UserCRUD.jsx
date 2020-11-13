@@ -21,7 +21,7 @@ export default class UserCrud extends Component {
 
     render() {
         return (
-            <Main {...headerProps}>
+            <Main { ...headerProps }>
 
             </Main>
         )
