@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NavItem(props) {
     return (
-        <a href={props.href}>
+        <Link to={props.href}>
             <i className={`fa fa-${props.icon}`}></i> {props.text}
-        </a>
+        </Link>
     );
 }
 
