@@ -1,14 +1,19 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Arnaldo Silva",
-            "email": "arnaldo.silva@empresa.com"
-        },
-        {
-            "id": 2,
-            "name": "Camila Carvalho",
-            "email": "c.carvalho@empresa.com"
-        }
-    ]
+  "users": [
+    {
+      "id": 2,
+      "name": "Camila Carvalho",
+      "email": "c.carvalho@empresa.com"
+    },
+    {
+      "name": "Felipe Azevedo",
+      "email": "felipe.azevedo005@protonmail.com",
+      "id": 3
+    },
+    {
+      "name": "Jorge Paulo",
+      "email": "jpcarvalho@empresa.com",
+      "id": 4
+    }
+  ]
 }
