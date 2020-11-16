@@ -6,21 +6,21 @@ const headerProps = {
     icon: 'users',
     title: 'Usuários',
     subtitle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir!'
-}
+};
 
-const baseUrl = 'http://localhost:3001/users'
+const baseUrl = "http://localhost:3001/users";
 
 const initialState = {
     user: { name: '', email: '' },
     list: []
-}
+};
 
 export default class UserCrud extends Component {
 
     state = { ...initialState };
 
     componentWillMount() {
-        axios(baseUrl).then(response => {
+        axios.get(baseUrl).then(response => {
             this.setState({ list: response.data });
         });
     }
@@ -101,14 +101,14 @@ export default class UserCrud extends Component {
     }
 
     load(user) {
-        this.setState({ user })
+        this.setState({ user });
     }
 
     remove(user) {
-        axios.delete(`${baseUrl}/${user.id}`).then(resp => {
-            const list = this.getUpdatedList(user, false)
-            this.setState({ list })
-        })
+        axios.delete(`${baseUrl}/${user.id}`).then(response => {
+            const list = this.getUpdatedList(user, false);
+            this.setState({ list });
+        });
     }
 
     renderTable() {
@@ -159,5 +159,4 @@ export default class UserCrud extends Component {
             </Main>
         );
     }
-
 }

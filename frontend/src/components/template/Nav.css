@@ -19,3 +19,25 @@ aside.menu-area {
 .menu a:hover {
     background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
 }
+
+@media(max-width: 768px) {
+    .menu {
+        display: flex;
+
+        height: 100%;
+    }
+
+    .menu a {
+        display: inline;
+    
+        margin: 0;
+    
+        padding: 10px;
+
+        width: 100%;
+        height: 100%;
+
+        text-align: center;
+    
+    }
+}
