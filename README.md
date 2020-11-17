@@ -1,6 +1,8 @@
 # react-crud-example
 ### A simple C.R.U.D (Create, Read, Update, Delete) application using React.js developed in the udemy [Web Moderno](https://www.udemy.com/course/curso-web/) course.
 
+![crud-example](./github/assets/crud-example.gif?raw=true)
+
 ## :bulb: Technologies
 This project was developed with the following technologies:
 
@@ -26,8 +28,8 @@ $ cd backend
 $ npm install
 # Run the backend server
 $ npm start
-# Now go into frontend folder
-$ cd ../frontend
+# Now open another tab and go into frontend folder
+$ cd react-crud-example/frontend
 # Install frontend dependencies
 $ npm install
 # Run the app
