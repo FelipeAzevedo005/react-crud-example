@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./UserCRUD.css";
 import axios from "axios";
 import Main from "../template/Main";
 
@@ -85,7 +86,7 @@ export default class UserCrud extends Component {
                 <hr />
                 <div className="row">
                     <div className="col-12 d-flex justify-content-end">
-                        <button className="btn btn-primary"
+                        <button className="btn btn-primary lightgreen"
                             onClick={e => this.save(e)}>
                             Salvar
                         </button>
