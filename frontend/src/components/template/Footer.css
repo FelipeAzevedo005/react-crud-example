@@ -8,4 +8,6 @@ footer.footer {
     background-color: #FFF;
     
     box-shadow: var(--shadow);
+
+    transition: 0.2s;
 }

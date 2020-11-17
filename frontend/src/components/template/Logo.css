@@ -4,6 +4,8 @@ aside.logo {
     align-items: center;
 
     background-color: var(--bg-dark);
+
+    transition: 0.2s;
 }
 
 aside.logo img {

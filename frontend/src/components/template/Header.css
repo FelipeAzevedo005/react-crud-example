@@ -8,6 +8,8 @@ header.header {
     overflow: hidden;
     
     background-color: #FFF;
+
+    transition: 0.2s;
 }
 
 header.header h1 {
