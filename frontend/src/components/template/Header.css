@@ -1,6 +1,8 @@
 header.header {
     padding: 0px 15px;
 
+    border-bottom: #0DAC60 solid 2px;
+
     white-space: nowrap;
 
     box-shadow: var(--shadow);

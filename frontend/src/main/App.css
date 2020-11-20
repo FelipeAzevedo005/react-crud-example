@@ -60,6 +60,10 @@ footer.footer {
   grid-area: footer;
 }
 
+.app hr {
+  background-color: #0DAC60
+}
+
 /*Dark Mode*/
 .app.dark {
   background-color: #111;
@@ -70,7 +74,7 @@ footer.footer {
 .app.dark header.header {
   color: #f5f5f5;
   
-  background-color: #1a1a1a;
+  background-color: #1c1c1c;
   
   transition: 0.2s;
 }
@@ -88,7 +92,7 @@ footer.footer {
 .app.dark main > div {
   color: #f5f5f5;
   
-  background-color: #1a1a1a;
+  background-color: #1c1c1c;
   
   transition: 0.2s;
 }
@@ -98,14 +102,10 @@ footer.footer {
   color: #f5f5f5;
 }
 
-.app.dark hr {
-  background-color: #666
-}
-
 .app.dark footer.footer {
   color: #f5f5f5;
   
-  background-color: #1a1a1a;
+  background-color: #222;
   
   transition: 0.2s;
 }

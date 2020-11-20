@@ -4,6 +4,8 @@ footer.footer {
     justify-content: flex-end;
 
     padding: 0 25px;
+
+    border-top: #0DAC60 solid 2px;
     
     background-color: #FFF;
     
