@@ -1,7 +1,7 @@
 # react-crud-example
 ### A simple C.R.U.D (Create, Read, Update, Delete) application using React.js developed in the udemy [Web Moderno](https://www.udemy.com/course/curso-web/) course.
 
-![crud-example](./github/assets/crud-example.gif?raw=true)
+![crud-example](./github/assets/crud-demo.gif?raw=true)
 
 ## :bulb: Technologies
 This project was developed with the following technologies:
